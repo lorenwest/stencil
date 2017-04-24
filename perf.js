@@ -1,6 +1,10 @@
 /* jshint esversion: 6 */
+
+// TODO: This is just temporary, non-scientific benchmarking.
+// Eventually, this should compare/contrast with other solutions.
+
 var Stencil = require("./index");
-var request = require('sync-request');
+var request = require("sync-request");
 
 var variables = `
     <div alpha="{{alpha.value}}" beta="{{alpha.beta.value}}">
